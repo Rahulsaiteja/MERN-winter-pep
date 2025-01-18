@@ -1,46 +1,65 @@
-body{
+body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0; 
     background-color: rgb(234, 230, 230);
 }
-.input{
+
+.input {
     width: 360px;
-    height:30px;
+    height: 30px;
     border-radius: 8px;
-    border-color: white;
-    background-color: rgb(234, 230, 230) ;
+    border: 1px solid white;
+    background-color: rgb(234, 230, 230);
+    padding: 5px;
+    outline: none; 
 }
-.frm-card{
+
+.frm-card {
     display: flex;
+    flex-direction: column; 
+    align-items: center;
     justify-content: center;
     background-color: white;
     width: 520px;
     height: 538px;
     border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
-p{
+
+p {
+    text-align: center; 
+    margin: 10px 0; 
+}
+
+.btn {
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
+    width: 360px;
+    height: 35px;
+    border-radius: 20px;
+    border: none; 
+    cursor: pointer; 
 }
-.frm-card{
-    justify-content: center;
-    box-shadow: 30px;
-}
-.btn{
-    justify-content:center;
-   color: white;
-   width: 360px;
-   height: 35px;
-   border-radius: 20px;
-}
-#btn1{
-    border-color: white;
+
+#btn1 {
     margin-top: 20px;
-    background-color:  #10b982
+    background-color: #10b982;
 }
-#btn2{
+
+#btn2 {
     background-color: black;
 }
-a{
-  text-decoration: none;
-  color:rgb(19, 157, 19)
+
+a {
+    text-decoration: none;
+    color: rgb(19, 157, 19);
+}
+
+a:hover {
+    text-decoration: underline; 
 }
