@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    background-color: rgb(234, 230, 230);
+}
+.input{
+    width: 360px;
+    height:30px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: rgb(234, 230, 230) ;
+}
+.frm-card{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 520px;
+    height: 538px;
+    border-radius: 15px;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.frm-card{
+    justify-content: center;
+    box-shadow: 30px;
+}
+.btn{
+    justify-content:center;
+   color: white;
+   width: 360px;
+   height: 35px;
+   border-radius: 20px;
+}
+#btn1{
+    border-color: white;
+    margin-top: 20px;
+    background-color:  #10b982
+}
+#btn2{
+    background-color: black;
+}
+a{
+  text-decoration: none;
+  color:rgb(19, 157, 19)
+}
